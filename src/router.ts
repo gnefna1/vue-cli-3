@@ -24,5 +24,10 @@ export default new Router({
       name: 'register',
       component: () => import('./views/register.vue'),
     },
+    {
+      path: '/upload',
+      name: 'upload',
+      component: () => import('./views/upload.vue'),
+    },
   ],
 });
